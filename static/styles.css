@@ -1,10 +1,23 @@
 nav {
     display: flex;
     align-items: center;
-    padding: 5px 20px;
+    padding: 10px 20px;
     border-radius: 3px 3px 0 0;
     background-color: #333333;
     color: white;
+}
+
+#content {
+    margin: 16px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
 }
 
 .nav-home {
@@ -18,4 +31,65 @@ nav {
 
 .nav-link {
     margin: 0 3px;
+}
+
+label {
+    display: inline-block;
+    width: 5%;
+    text-align: left;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    margin: 1em 0;
+}
+
+.feedback-form {
+    display: inline-block;
+    border: 2px solid black;
+    width: auto;
+    padding: 10px;
+}
+
+.feedback-form label {
+    width: 50%;
+}
+
+.add {
+    text-decoration: none;
+    color: white;
+    padding: 0 6px;
+    background-color: #333333;
+}
+
+li {
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: #333333;
+    padding: 5px;
+    text-align: right;
+    border: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.feedback {
+    border: 2px solid #333333;
+    width: 15%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.delete {
+    color: red;
+    padding: 5px;
 }
